@@ -1,0 +1,83 @@
+body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: rgb(177, 177, 255);
+}
+
+.p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(159, 159, 255);
+}
+
+.bottom{
+    background-color: rgb(51, 51, 124);
+    width: 500px;
+    color: white;
+    border-radius: 7px;
+}
+
+ul{
+    list-style-type: none;
+}
+.btnS{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edits{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    background-color:rgb(20, 173, 20) ;
+    padding: 10px;
+}
+
+.edits2{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(228, 45, 45);
+    padding: 10px;
+}
+
+.cads{
+    background-color:rgb(38, 38, 82);
+    padding: 20px;
+    border-radius: 7px;
+}
+.mat{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 7px;
+    background-color:rgb(82, 82, 82) ;
+}
+.mat1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 7px;
+    background-color:rgb(82, 82, 82) ;
+}
+.mat2{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius: 7px;
+    font-weight: bold;
+    border: none;  
+    color: white;
+    padding: 7px; 
+    background-color:rgb(82, 82, 82) ;
+}

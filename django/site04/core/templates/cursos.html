@@ -1,38 +1,52 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursos</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
   </head>
   <body>
+    <center>
     <h1>Cursos</h1>
-
-    <p>Listagem de Cursos:</p>
+    <div class="bottom">
+      <center>
+    <p class="p">Listagem de Cursos</p>
+  </center>
     <ul>
       {% for curso in cursos %}
       <li>
-        <p>
+        <div class="btnS">
+        <p class="edit">
           {{curso.titulo}} 
-          <a href="{% url 'editar_curso' curso.id %}">EDITAR</a>
-          <a href="{% url 'remover_curso' curso.id %}">REMOVER</a>
         </p>
+        <div class="btn">
+        <a class="edits" href="{% url 'editar_curso' curso.id %}">EDITAR</a>
+        <a class="edits2" href="{% url 'remover_curso' curso.id %}">REMOVER</a>
+
+      </div>
+      </div>
       </li>
       {% empty %}
       <p>Não existem cursos disponíveis</p>
       {% endfor %}
     </ul>
-
+  <div class="cads">
     <a href="{% url 'cadastrar_curso' %}">
-      <button>Cadastar Curso</button>
+      <button class="mat" >Cadastar Curso</button>
     </a>
 
     <a href="{% url 'cadastrar_publico' %}">
-      <button>Cadastar Publico</button>
+      <button class="mat1">Cadastar Público</button>
     </a>
 
     <a href="{% url 'cadastrar_area' %}">
-      <button>Cadastar Area</button>
+      <button class="mat2">Cadastar Área</button>
     </a>
+      </div>
+  </div>
+</center>
   </body>
 </html>
