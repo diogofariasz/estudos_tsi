@@ -1,0 +1,86 @@
+
+body{
+    background-image: linear-gradient(to bottom,  rgb(253, 59, 166), rgb(47, 47, 255));
+    overflow: hidden;
+}
+
+.captain{
+   background-image: linear-gradient(to bottom, rgb(240, 26, 143), blue);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5%;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 38%;
+    gap: 5px;
+}
+.form{
+   
+}
+.formLogin{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+input[type="email"],
+input[type="password"] {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 150%;
+    padding: 10px;
+    border:none;
+    border-radius: 20px;
+    height: 25px;
+    outline: none;
+
+}
+
+.btn{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: rgb(53, 235, 53);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(16, 207, 16);
+}
+footer {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+	
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    position:relative;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+    margin-top: -10px;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
