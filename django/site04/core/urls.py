@@ -2,6 +2,8 @@ from django.urls import path
 from .views import cursos, cadastrar_curso, cadastrar_publico, cadastrar_area, editar_curso, remover_curso
 
 urlpatterns = [
+
+    
     path('cursos/', cursos, name='cursos'),
 
     path('cadastrar_curso/', cadastrar_curso, name='cadastrar_curso'),
